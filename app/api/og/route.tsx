@@ -1,4 +1,3 @@
-import { wantedSans } from '@/app/fonts';
 import { ImageResponse } from 'next/og';
 import { NextRequest } from 'next/server';
 // App router includes @vercel/og.
@@ -140,10 +139,10 @@ export async function GET(request: NextRequest) {
       height: 630,
       fonts: [
         {
-          name: 'Wanted Sans',
+          name: 'Pretendard',
           data: fontData,
-          weight: 400,
-          style: 'normal',
+          weight: 700,
+          style: "normal",
         },
       ],
     }
