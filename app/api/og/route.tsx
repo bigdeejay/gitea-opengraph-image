@@ -84,6 +84,7 @@ export async function GET(request: NextRequest) {
           justifyContent: 'center',
           flex: 1,
           width: '100%',
+          overflow: 'hidden',
         }}>
           <p style={{ 
             fontSize: '72px', 
@@ -93,7 +94,11 @@ export async function GET(request: NextRequest) {
             margin: '0 0 20px 0',
             letterSpacing: '-1px',
             maxWidth: '90%',
-            lineHeight: 1.2
+            lineHeight: 1.2,
+            wordWrap: 'break-word',
+            display: '-webkit-box',
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: 'vertical',
           }}>
             {title}
           </p>
