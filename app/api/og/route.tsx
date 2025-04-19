@@ -39,7 +39,6 @@ export async function GET(request: NextRequest) {
           background: 'linear-gradient(145deg, #f2f2f7, #e5e5ea)',
           color: '#1d1d1f',
           padding: '50px',
-          fontFamily: 'Wanted Sans',
           borderRadius: '20px',
           overflow: 'hidden',
         }}
